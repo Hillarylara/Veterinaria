@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 04</title>
+</head>
+
+<body bgcolor="white" background="">
+    <h2 > Veterinária </h2>
+    
+    <table width="800" align="center">
+    <tr>|<td> 
+    <fieldset> <legend> Cadastro Animal  </legend>
+    <form action="enviar.php" method="POST" name="cadastro">
+    <table cellpadding="5" cellspacing="3" align="center"> 
+
+    <tr>
+            <td><label> Nome do Animal: </label></td>
+            <td><input type="text" id="nome" name="nome" size="90" maxlength=""  required/></td>
+            </tr>
+            
+            <tr>
+            <td><label> Espécie: </label></td>
+            <td><input type="text" id="nome" name="nome" size="35" maxlength=""  required/></td>
+            </tr>
+            
+            <tr>
+            <td><label> Raça/Cor: </label></td>
+            <td><input type="text" id="raça" name="raça" size="37" maxlength=""  required/></td>
+            </tr>
+  
+           <tr>
+            <td><label> Sexo:</label></td>
+            <td>
+            <label> <input type="radio" id="sexo" name="sexo"  value="Macho" required/> Macho</label>
+          
+            <label> <input type="radio" id="sexo" name="sexo"  value="Fêmea" required/>Fêmea</label>
+          </td>
+        </tr>
+            
+        <tr>
+            <td><label>Idade: </label></td>
+            <td><input type="number" id="Idade" name="Idade" size="40" maxlength="3" /></td>
+            </tr>
+           
+            <tr>
+             <td> <label>Data de Nascimento:</label></td> 
+            <td><input type="date" id="data-nasc" name="data_nasc" min="" max="" required /></td>
+             </tr>
+
+            <tr>
+            <td><label> Propietario: </label></td>
+            <td><input type="text" id="Propietario" name="Propietario" size="95" maxlength=""  required/></td>
+            </tr>
+        
+            <tr>
+            <td><label>CPF:</label></td>
+            <td><input type="number" id="cpf" name="cpf" size="35" max="99999999999"  required/></td>
+            </tr> 
+
+            <tr>
+                    <td><label>Telefone:</label></td>
+                    <td><input type="number" id="cpf" name="cpf" size="35" max="(99)99999-9999"  required/></td>
+                   </tr>
+
+                   <tr>
+                   <td><label> Endereço: </label></td>
+            <td><input type="text" id="Endereço" name="Endereço" size="35" maxlength=""  required/></td>
+            </tr>
+            
+    </table>
+  </fieldset>
+
+  <fieldset>
+           <legend>Serviços</legend>
+           <table cellpadding="5" cellspacing="3" align="center"> 
+          
+           <tr>
+           <td> <label> Banho: </label> </td>
+           <td> <input type="checkbox" id="Padrão" name="Padrão" value="Padrão"/> Padrão
+           <input type="checkbox" id="Hidratação" name="Hidratação" value="Hidratação"/>
+           Hidratação
+           <input type="checkbox" id="Selagem" name="Selagem" value="Selagem"/>
+           Selagem <td>
+          </tr>
+           
+          <tr>
+           <td> <label> Tosa: </label> </td>
+           
+           <td>
+                <label> <input type="radio" id="sexo" name="sexo"  value="Masculino" required/> Tesoura</label>
+            
+                <label> <input type="radio" id="sexo" name="sexo"  value="Feminino" required/> Máquina </label>
+                
+                <input type="radio" id="sexo" name="sexo"  value="Feminino" required/>
+                <label> <input type="radio" id="sexo" name="sexo"  value="Feminino" required/> Higiênica</label>
+              </td>
+            </tr>
+
+           <tr>
+                <td><label>Obsevações Adicionais:</label></td>
+                <td>
+                <textarea cols="40" rows="5" id="coment" name="coment" maxlength="300" required></textarea></td>
+              </tr>
+
+            </table>
+          </fieldset>
+
+          <fieldset>
+              <legend> Pagamento </legend>
+              <table cellpadding="5" cellspacing="3" align="center"> 
+
+              <tr>
+                <td><label> Formas de Pagamento:</label></td>
+                 <td><select id="Formas de Pagamento" name="Formas de Pagamento" required>
+                  <option value="" selected="selected">-- Selecione --</option>
+                  <option value="Dinheiro">Dinheiro</option>
+                  <option value="Cartão">Cartão</option>
+                  <option value="pix">Pix</option>
+                 </select> 
+               </td>
+               </tr>
+
+               <tr>
+                
+                <th colspan="2"> 
+                 <input type="submit" id="enviar" name="enviar" value="Enviar Dados"/>
+                 <input type="reset" id="limpar" name="limpar" value="Limpar Dados"/> </th> 
+               </tr>
+               
+
+              </form>
+            </table>
+            </fieldset>
+              </td> </tr>
+            </table>
+
+              </body>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
